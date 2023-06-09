@@ -378,7 +378,7 @@ p {
   background-color: #f4f4fd;
 }
 
-.title {
+.last-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -416,7 +416,7 @@ p {
 }
 
 .logo-customers {
-  width: calc((100% - 48px) / 2);
+  width: calc((100% - 24px) / 2);
   height: 88px;
 }
 
@@ -614,7 +614,7 @@ p {
   }
 
   .logo-customers {
-    width: calc((100% - 96px) / 3);
+    width: calc((100% - 48px) / 3);
   }
 
   .list-customers {
@@ -625,8 +625,8 @@ p {
   /* =====footer tablet===== */
 
   .container-footer {
+    max-width: 584px;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
