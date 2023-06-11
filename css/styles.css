@@ -305,6 +305,8 @@ p {
   .social-icon-mobile-menu {
     fill: var(--color-social-icon);
   }
+
+  .title {
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
